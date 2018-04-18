@@ -1,0 +1,28 @@
+.errorText {
+  color: red;
+  font-weight: bold;
+}
+
+.dataFrame {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.shortFrame {
+  width: 400px;
+}
+
+.leftFrame {
+	float: left;
+}
+
+.actionsColl {
+  text-align: center;
+}
+
+.dataColl {
+  min-width: 100px;
+  padding: 20px;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>by.my</groupId>
+    <artifactId>phones-book</artifactId>
+    <version>${app.version}</version>
+    <modules>
+        <module>module-web</module>
+        <module>module-beans</module>
+        <module>module-controller</module>
+        <module>module-service</module>
+        <module>module-dao</module>
+        <module>module-entities</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <app.version>1.0-SNAPSHOT</app.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
+        <jstl.version>1.2</jstl.version>
+        <dozer.version>5.5.1</dozer.version>
+        <spring.data.version>2.0.5.RELEASE</spring.data.version>
+        <mysql.version>6.0.6</mysql.version>
+        <hibernate.version>5.3.0.CR1</hibernate.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>
