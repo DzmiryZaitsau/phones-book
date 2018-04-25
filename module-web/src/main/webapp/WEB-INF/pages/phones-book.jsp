@@ -48,8 +48,7 @@
                         <s:message code="contactListPage.saveContactForm.title"/>
                     </h1>
 
-                    <spring:form action="save-phones-book.html" method="post" >
-                        <spring:hidden path="id"/>
+                    <spring:form action="save-phones-book.html" method="post" modelAttribute="contact">
 
                         <s:message code="contactListPage.saveContactForm.name.label"/>
                         <br/>
